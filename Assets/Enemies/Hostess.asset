@@ -32,16 +32,22 @@ MonoBehaviour:
   weapons:
   - rid: 7250422999774134272
   - rid: 7250422999774134273
+  - rid: 3013797949334618112
   references:
     version: 2
     RefIds:
+    - rid: 3013797949334618112
+      type: {class: AttackChoiceChance, ns: , asm: Assembly-CSharp}
+      data:
+        weapon: {fileID: 11400000, guid: 8a38b0374c4a9d045a404c35cd674acd, type: 2}
+        probability: 1
     - rid: 7250422999774134272
       type: {class: AttackChoiceChance, ns: , asm: Assembly-CSharp}
       data:
         weapon: {fileID: 11400000, guid: 1ec22419de7667bf1a6cb30fecc28ee2, type: 2}
-        probability: 0.5
+        probability: 0.1
     - rid: 7250422999774134273
       type: {class: AttackChoiceChance, ns: , asm: Assembly-CSharp}
       data:
         weapon: {fileID: 11400000, guid: 1d81875c98230d54488451e3e59d8fc0, type: 2}
-        probability: 0.5
+        probability: 0.1
