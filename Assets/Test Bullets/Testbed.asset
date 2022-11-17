@@ -21,7 +21,7 @@ MonoBehaviour:
   baseHealth: 3
   initTime: 0
   moveTime: 0
-  aimTime: 3
+  aimTime: 10
   attackAnimLeadTime: 1.2
   cooldownTime: 0.5
   speedWhileAiming: 0
@@ -37,4 +37,4 @@ MonoBehaviour:
     - rid: 873501692295905280
       type: {class: AttackChoiceAlways, ns: , asm: Assembly-CSharp}
       data:
-        weapon: {fileID: 11400000, guid: 1a943d9a49e1c54478bf4c5f7965999e, type: 2}
+        weapon: {fileID: 11400000, guid: 0cbc00fa24c00fa42b46b3a30ab5b7e9, type: 2}
